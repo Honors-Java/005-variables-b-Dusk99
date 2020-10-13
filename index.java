@@ -1,3 +1,10 @@
+int rectpos = 150;
+int cirpos = 250;
+
+
+
+
+
 void setup() {
 	size(500, 500);
 }
@@ -18,8 +25,11 @@ void draw() {
 
   background(255);
   stroke(0);
-
-
+  fill(170)
+  rect (rectpos,rectpos,200,200)
+  fill(255,80,125)
+  ellipse (cirpos,cirpos,100,100,)
+  cirpos+=1
   
 
 }
